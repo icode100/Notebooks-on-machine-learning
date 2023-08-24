@@ -1,0 +1,3 @@
+Hii! 👋\
+This is Ipsit Das a CS undergrad at NIT Andhra Pradehsh and hereby involved in making this series of jupyter notebooks which is my journey with machine learning. It all started in the summer of 2023 when I was intrigued towards machine learning and deep learning. I would thank and acknowedge my work to [Sir Aurélien Geron](https://github.com/ageron) whose Book **Hands-On  Machine Learning  with Scikit-Learn,  Keras & TensorFlow** have immensely helped me in learning and enjoying in the world of machine learning. The examples in my notebook have been taken from the book as I have always used them to make myself learn.\
+Thank you 
