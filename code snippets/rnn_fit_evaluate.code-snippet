@@ -1,0 +1,17 @@
+{
+	"Print to console": {
+		"scope": "python",
+		"prefix": "fit_evaluate",
+		"body": [
+		"def fit_and_evaluate(model, train_set, valid_set, learning_rate=0.02, epochs=500):"
+    	"	early_stopping_cb = tf.keras.callbacks.EarlyStopping("
+    	"	    monitor='val_mae', patience=50, restore_best_weights=True)"
+    	"	opt = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=0.9)"
+    	"	model.compile(loss=tf.keras.losses.Huber(), optimizer=opt, metrics=['mae'])"
+    	"	history = model.fit(train_set, validation_data=valid_set, epochs=epochs,"
+    	"	                    callbacks=[early_stopping_cb])"
+    	"	return model.evaluate(valid_set)[1]*1e6"
+		],
+		"description": "Log output to console"
+	}
+}
